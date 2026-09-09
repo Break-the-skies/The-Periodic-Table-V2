@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>The Periodic Table - Home</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <!--/*Refrence: 
-    https://www.geeksforgeeks.org/javascript/how-to-include-a-javascript-file-in-another-javascript-file/
-    */-->
-    <script src="table.js"></script>
+    <title>The Periodic Table - Home</title> <!--Page title-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Responsive viewing/layout-->
+    <link rel="stylesheet" href="index.css"> <!--css for this (home) page-->
+    <script src="elements-list.js"></script> <!--js file with the element object/database-->
+    <script src="table.js"></script> <!--js file with the actual js (dependent on elements-list.js)-->
 </head>
 <body>
     <!-- Add table (cycle through object)
