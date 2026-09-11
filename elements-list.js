@@ -4,7 +4,7 @@ Kept separate from table.js for easier readability/editing
 Currently contains element's: atomic number, symbol, name, & group
     Element info in nested object (symbol is also the property)
 */
-const elements={
+const elements_main={
     H:{
         number:"1",
         symbol:"H",
@@ -290,76 +290,6 @@ const elements={
         symbol:"La",
         name:"Lanthanum",
         group:"Lanthanide",},
-    Ce: {
-        number:"58",
-        symbol:"Ce",
-        name:"Cerium",
-        group:"Lanthanide",},
-    Pr: {
-        number:"59",
-        symbol:"Pr",
-        name:"Praseodymium",
-        group:"Lanthanide",},
-    Nd: {
-        number:"60",
-        symbol:"Nd",
-        name:"Neodymium",
-        group:"Lanthanide",},
-    Pm: {
-        number:"61",
-        symbol:"Pm",
-        name:"Promethium",
-        group:"Lanthanide",},
-    Sm: {
-        number:"62",
-        symbol:"Sm",
-        name:"Samarium",
-        group:"Lanthanide",},
-    Eu: {
-        number:"63",
-        symbol:"Eu",
-        name:"Europium",
-        group:"Lanthanide",},
-    Gd: {
-        number:"64",
-        symbol:"Gd",
-        name:"Gadolinium",
-        group:"Lanthanide",},
-    Tb: {
-        number:"65",
-        symbol:"Tb",
-        name:"Terbium",
-        group:"Lanthanide",},
-    Dy: {
-        number:"66",
-        symbol:"Dy",
-        name:"Dysprosium",
-        group:"Lanthanide",},
-    Ho: {
-        number:"67",
-        symbol:"Ho",
-        name:"Holmium",
-        group:"Lanthanide",},
-    Er: {
-        number:"68",
-        symbol:"Er",
-        name:"Erbium",
-        group:"Lanthanide",},
-    Tm: {
-        number:"69",
-        symbol:"Tm",
-        name:"Thulium",
-        group:"Lanthanide",},
-    Yb: {
-        number:"70",
-        symbol:"Yb",
-        name:"Ytterbium",
-        group:"Lanthanide",},
-    Lu: {
-        number:"71",
-        symbol:"Lu",
-        name:"Lutetium",
-        group:"Lanthanide",},
     Hf: {
         number:"72",
         symbol:"Hf",
@@ -450,6 +380,128 @@ const elements={
         symbol:"Ac",
         name:"Actinium",
         group:"Actinide",},
+        Mt: {
+        number:"109",
+        symbol:"Mt",
+        name:"Meitnerium",
+        group:"Transition Metal",},
+    Ds: {
+        number:"110",
+        symbol:"Ds",
+        name:"Darmstadtium",
+        group:"Transition Metal",},
+    Rg: {
+        number:"111",
+        symbol:"Rg",
+        name:"Roentgenium",
+        group:"Transition Metal",},
+    Cn: {
+        number:"112",
+        symbol:"Cn",
+        name:"Copernicium",
+        group:"Transition Metal",},
+    Nh: {
+        number:"113",
+        symbol:"Nh",
+        name:"Nihonium",
+        group:"Post-Transition Metal",},
+    Fl: {
+        number:"114",
+        symbol:"Fl",
+        name:"Flerovium",
+        group:"Post-Transition Metal",},
+    Mc: {
+        number:"115",
+        symbol:"Mc",
+        name:"Moscovium",
+        group:"Post-Transition Metal",},
+    Lv: {
+        number:"116",
+        symbol:"Lv",
+        name:"Livermorium",
+        group:"Post-Transition Metal",},
+    Ts: {
+        number:"117",
+        symbol:"Ts",
+        name:"Tennessine",
+        group:"Post-Transition Metal",},
+    Og: {
+        number:"118",
+        symbol:"Og",
+        name:"Oganesson",
+        group:"Noble Gas",},
+    }
+const elements_lanth_act={
+    Ce: {
+        number:"58",
+        symbol:"Ce",
+        name:"Cerium",
+        group:"Lanthanide",},
+    Pr: {
+        number:"59",
+        symbol:"Pr",
+        name:"Praseodymium",
+        group:"Lanthanide",},
+    Nd: {
+        number:"60",
+        symbol:"Nd",
+        name:"Neodymium",
+        group:"Lanthanide",},
+    Pm: {
+        number:"61",
+        symbol:"Pm",
+        name:"Promethium",
+        group:"Lanthanide",},
+    Sm: {
+        number:"62",
+        symbol:"Sm",
+        name:"Samarium",
+        group:"Lanthanide",},
+    Eu: {
+        number:"63",
+        symbol:"Eu",
+        name:"Europium",
+        group:"Lanthanide",},
+    Gd: {
+        number:"64",
+        symbol:"Gd",
+        name:"Gadolinium",
+        group:"Lanthanide",},
+    Tb: {
+        number:"65",
+        symbol:"Tb",
+        name:"Terbium",
+        group:"Lanthanide",},
+    Dy: {
+        number:"66",
+        symbol:"Dy",
+        name:"Dysprosium",
+        group:"Lanthanide",},
+    Ho: {
+        number:"67",
+        symbol:"Ho",
+        name:"Holmium",
+        group:"Lanthanide",},
+    Er: {
+        number:"68",
+        symbol:"Er",
+        name:"Erbium",
+        group:"Lanthanide",},
+    Tm: {
+        number:"69",
+        symbol:"Tm",
+        name:"Thulium",
+        group:"Lanthanide",},
+    Yb: {
+        number:"70",
+        symbol:"Yb",
+        name:"Ytterbium",
+        group:"Lanthanide",},
+    Lu: {
+        number:"71",
+        symbol:"Lu",
+        name:"Lutetium",
+        group:"Lanthanide",},
     Th: {
         number:"90",
         symbol:"Th",
@@ -545,54 +597,5 @@ const elements={
         symbol:"Hs",
         name:"Hassium",
         group:"Actinide",},
-    Mt: {
-        number:"109",
-        symbol:"Mt",
-        name:"Meitnerium",
-        group:"Transition Metal",},
-    Ds: {
-        number:"110",
-        symbol:"Ds",
-        name:"Darmstadtium",
-        group:"Transition Metal",},
-    Rg: {
-        number:"111",
-        symbol:"Rg",
-        name:"Roentgenium",
-        group:"Transition Metal",},
-    Cn: {
-        number:"112",
-        symbol:"Cn",
-        name:"Copernicium",
-        group:"Transition Metal",},
-    Nh: {
-        number:"113",
-        symbol:"Nh",
-        name:"Nihonium",
-        group:"Post-Transition Metal",},
-    Fl: {
-        number:"114",
-        symbol:"Fl",
-        name:"Flerovium",
-        group:"Post-Transition Metal",},
-    Mc: {
-        number:"115",
-        symbol:"Mc",
-        name:"Moscovium",
-        group:"Post-Transition Metal",},
-    Lv: {
-        number:"116",
-        symbol:"Lv",
-        name:"Livermorium",
-        group:"Post-Transition Metal",},
-    Ts: {
-        number:"117",
-        symbol:"Ts",
-        name:"Tennessine",
-        group:"Post-Transition Metal",},
-    Og: {
-        number:"118",
-        symbol:"Og",
-        name:"Oganesson",
-        group:"Noble Gas",},
-    }
+
+}
