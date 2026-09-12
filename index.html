@@ -8,8 +8,8 @@
     <script src="table.js"></script> <!--js file with the actual js (dependent on elements-list.js)-->
 </head>
 <body>
-    <h1>The Periodic Table</h1>
-    <table id="main_elements">
+    <h1>The Periodic Table</h1> <!--Heading text-->
+    <table id="main_elements"> <!--Table for elements (excluding lanthanides & actinides)-->
         <tr id="column_iupac">
             <td>1</td>
             <td>2</td>
@@ -158,7 +158,7 @@
             <td>Og</td>
         </tr>
     </table>
-    <table id="series_elements">
+    <table id="series_elements"> <!--Table for lanthanide & actinide series-->
         <tr id="lanth">
             <th>Lanthanides</th>
             <td>La</td>
@@ -196,6 +196,15 @@
             <td>Lr</td>
         </tr>
     </table>
+    <!--Display modal box w/ element info (makes use of js in table.js): -->
+    <div class="modal_surrounding_bg"> <!--Create class for background/surroundings of modal-->
+        <div class="modal"> <!--Create class for modal-->
+            <div class="close_modal_btn_wrap"><button class="close_modal_btn">&times;</button></div> <!--Create class for & button to close modal-->
+            <div class="modal_content"> <!--Create class for modal text (element info)-->
+                <h1 id="modal_element_name"></h1> <!--js for element name-->
+            </div>
+        </div>
+    </div>
     <!-- Add table (cycle through object)
     Add following options:
         dark/light mode
