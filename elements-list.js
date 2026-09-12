@@ -9,7 +9,7 @@ const elements_main={
         number:"1",
         symbol:"H",
         name:"Hydrogen",
-        group: "Nonmetal"},
+        group: "Nonmetal",},
     He: {
         number:"2",
         symbol:"He",
@@ -274,7 +274,7 @@ const elements_main={
         number:"54",
         symbol:"Xe",
         name:"Xenon",
-        group:"Transition Metal",},
+        group:"Noble Gas",},
     Cs: {
         number:"55",
         symbol:"Cs",
@@ -364,7 +364,7 @@ const elements_main={
         number:"86",
         symbol:"Rn",
         name:"Radon",
-        group:"Transition Metal",},
+        group:"Noble Gas",},
     Fr: {
         number:"87",
         symbol:"Fr",
@@ -380,7 +380,32 @@ const elements_main={
         symbol:"Ac",
         name:"Actinium",
         group:"Actinide",},
-        Mt: {
+    Rf: {
+        number:"104",
+        symbol:"Rf",
+        name:"Rutherfordium",
+        group:"Transition Metal",},
+    Db: {
+        number:"105",
+        symbol:"Db",
+        name:"Dubnium",
+        group:"Transition Metal",},
+    Sg: {
+        number:"106",
+        symbol:"Sg",
+        name:"Seaborgium",
+        group:"Transition Metal",},
+    Bh: {
+        number:"107",
+        symbol:"Bh",
+        name:"Bohrium",
+        group:"Transition Metal",},
+    Hs: {
+        number:"108",
+        symbol:"Hs",
+        name:"Hassium",
+        group:"Transition Metal",},
+    Mt: {
         number:"109",
         symbol:"Mt",
         name:"Meitnerium",
@@ -571,31 +596,4 @@ const elements_lanth_act={
         number:"103",
         symbol:"Lr",
         name:"Lawrencium",
-        group:"Actinide",},
-    Rf: {
-        number:"104",
-        symbol:"Rf",
-        name:"Rutherfordium",
-        group:"Actinide",},
-    Db: {
-        number:"105",
-        symbol:"Db",
-        name:"Dubnium",
-        group:"Actinide",},
-    Sg: {
-        number:"106",
-        symbol:"Sg",
-        name:"Seaborgium",
-        group:"Actinide",},
-    Bh: {
-        number:"107",
-        symbol:"Bh",
-        name:"Bohrium",
-        group:"Actinide",},
-    Hs: {
-        number:"108",
-        symbol:"Hs",
-        name:"Hassium",
-        group:"Actinide",},
-
-}
+        group:"Actinide",},}
