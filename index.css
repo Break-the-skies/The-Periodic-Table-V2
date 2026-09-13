@@ -25,7 +25,7 @@ table {
     top: 50%; /*Start at 50% of screen vertically*/
     left: 50%; /*Start at 50% of screen horizontally*/
     transform: translate(-50%,-50%);/*Center box*/
-    text-align: right;
+    text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: none;
     margin: auto;
@@ -38,3 +38,5 @@ table {
     font-weight: bolder;
     cursor: pointer;
 }
+.specific_info_label{display:none;}
+.specific_info_value{display:none;}

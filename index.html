@@ -201,7 +201,17 @@
         <div class="modal"> <!--Create class for modal-->
             <div class="close_modal_btn_wrap"><button class="close_modal_btn">&times;</button></div> <!--Create class for & button to close modal-->
             <div class="modal_content"> <!--Create class for modal text (element info)-->
-                <h1 id="modal_element_name"></h1> <!--js for element name-->
+                <h1 id="modal_element_symbol"></h1>
+                <h2 id="modal_element_name"></h2> <!--js for element name-->
+                <h3 id="specific_info_label"></h3>
+                <p id="specific_info_value"></p>
+                <!--Create dropdown (select) & button to get specific info-->
+                <select id="more_info_dropdown">
+                    <option value="default" selected>Pick an option!</option>
+                    <option value="number">Atomic Number</option>
+                    <option value="group">Group</option>
+                </select>
+                <button type="submit" id="get_element_info">Get info</button>
             </div>
         </div>
     </div>
